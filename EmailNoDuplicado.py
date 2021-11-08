@@ -10,12 +10,12 @@ import pandas as pd
 # Estructura excel nombres_email.xlsx
 # Nombre	Email
 # aaa	aaa@aaa.com
-# aaa	aaa@aaa.com
+# aaa1	aaa@aaa.com
 # bbb	bbb@bbb.com
 # ccc	ccc@ccc.com
 # ddd	ddd@ddd.com
 
 ruta = 'nombres_email.xlsx'
 df = pd.read_excel(io=ruta, sheet_name="Hoja1")
-df = df.drop_duplicates()
+df = df.drop_duplicates(subset=['Email'])
 print(df)
