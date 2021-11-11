@@ -23,3 +23,23 @@ Commit ficheros relacionados al reto del día 09/11/2021:
 - index.html
 - estilo.css
 - cuotas.js
+
+ENUNCIADO 10/11/2021
+- Lenguaje: Java
+- IDE recomendado: IntelliJ
+- Nivel: Inicial
+- Enunciado: Dada una cadena de texto (String) con el nombre completo de una persona, debes crear un método que devuelva 3 campos: nombre, apellido1, apellido2. Debes tener en cuenta que hay nombres compuestos y que puedes recibir un nombre completo sin apellido2 o sin ningún apellido.
+Ejemplos: José Martínez Pérez -> nombre: José, apellido1: Martínez, apellido2: Pérez.
+                   José María Martínez -> nombre: José María, apellido1: Martínez
+                   José -> nombre: José
+- Consideraciones: Deberías tener los nombres de pila en un array o fichero, para poder diferenciar entre un nombre de pila y un apellido.
+
+
+ENUNCIADO 11/11/2021
+- Lenguaje: Kotlin
+- IDE recomendado: IntelliJ
+- Nivel: Inicial
+- Enunciado: Crea la clase Usuario, como clase base, de la cual derivarán Estudiante, Instructor y Administrador. Cada clase, tendrá varios atributos propios. Además, deberemos crear la clase Curso. Cada Curso tendrá N Estudiantes y 1 Instructor. A la vez, desde Instructor podremos navegar a los Cursos y desde los Estudiantes también, accederemos a todos los Cursos de un Estudiante.
+Crearemos 2 métodos para la clase Usuario y un método para la clase Estudiante, Instructor y Administrador. Ejemplos de método pueden ser: login, realizarEntrega, matricular, corregir…
+- Consideraciones: Os dejo la documentación de Kotlin https://kotlinlang.org/docs/classes.html
+Kotlin Help
