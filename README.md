@@ -52,3 +52,30 @@ ENUNCIADO 12/11/2021
 1) El array no está bien formado (es decir, no tiene [] o , para separar los elementos.
 2) El elemento a convertir no es un entero.
 - Consideraciones: Crea una Clase llamada Util para meter este método y otros que puedan resultar de utilidad. No se debe instanciar la clase Util, se debe poder invocar directamente al método a través de Util.stringToArray()
+
+ENUNCIADO 13/11/2021
+- Lenguaje: Java o Python
+- IDE recomendado: IntelliJ (Java) o PyCharm (Python)
+- Nivel: Inicial
+- Enunciado: El objetivo es crear una calculadora de texto. Le podrás dar instrucciones del siguiente estilo:
+      - suma dos y dos
+      - multiplica tres y cuatro
+      - resta seis y tres
+      - divide seis y dos (la división siempre dará un resultado entero)
+El resultado será también en texto. Los números que recibirá irán del cero al nueve.
+- Ampliación: Añade una operación extra después de la primera operación. Ejemplo:
+      - suma dos y dos y multiplícalo por seis
+      - multiplica tres y cuatro y súmale dos
+- Consideraciones: si no se reconoce un número o una operación, se debe lanzar una excepción (una diferente en cada caso)
+
+ENUNCIADO 14/11/2021
+El reto de hoy consiste en lo siguiente:
+- Lenguaje: Scala
+- IDE recomendado: IntelliJ
+- Nivel: Intermedio
+- Enunciado: Crea 4 clases, Usuario (clase abstracta), Estudiante (hereda de Usuario), Invitado  (hereda de Usuario) y Administrador (hereda de Usuario y tiene nivel), cada uno con sus atributos (no hacen falta métodos). En el método Main, debes crear una lista (List) de Usuarios. Para cada elemento:
+      - Si es de tipo Invitado, debes mostrarle el mensaje "No estás autorizado a entrar en esta lección".
+      - Si es de tipo Estudiante, debes comprobar que su $nombre y $password existe y mostrar el mensaje "Bienvenid@ a OpenVitae, $nombre".
+      - Si es de tipo Administrador y su nivel es 1, debes mostrar el mensaje "Tu nivel es insuficiente".
+      - Si es de tipo Administrador y su nivel es 2, debes mostrar el mensaje "Tu nivel es el correcto".
+- Consideraciones: Debes usar una de las funcionalidades más potentes de Scala, llamada pattern matching.
