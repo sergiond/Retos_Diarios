@@ -43,3 +43,12 @@ ENUNCIADO 11/11/2021
 Crearemos 2 métodos para la clase Usuario y un método para la clase Estudiante, Instructor y Administrador. Ejemplos de método pueden ser: login, realizarEntrega, matricular, corregir…
 - Consideraciones: Os dejo la documentación de Kotlin https://kotlinlang.org/docs/classes.html
 Kotlin Help
+
+ENUNCIADO 12/11/2021
+- Lenguaje: Java
+- IDE recomendado: IntelliJ
+- Nivel: Inicial
+- Enunciado: Crea un método que convierta una cadena de texto (String) en un Array de enteros (Integer). El método recibirá como parámetro la cadena y devolverá un ArrayList de tipo Integer. Debes lanzar una excepción en los siguientes casos:
+1) El array no está bien formado (es decir, no tiene [] o , para separar los elementos.
+2) El elemento a convertir no es un entero.
+- Consideraciones: Crea una Clase llamada Util para meter este método y otros que puedan resultar de utilidad. No se debe instanciar la clase Util, se debe poder invocar directamente al método a través de Util.stringToArray()
